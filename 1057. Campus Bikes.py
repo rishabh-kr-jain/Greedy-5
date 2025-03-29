@@ -1,3 +1,5 @@
+#time: O(n * m log (n * m))
+#space: O(n * m)
 from collections import defaultdict
 class Solution(object):
     def assignBikes(self, workers, bikes):
